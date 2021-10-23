@@ -1,0 +1,16 @@
+$color_main: red;
+$color_darker: rgb(59, 49, 49);
+$size: 200px;
+
+
+
+.wrapper__item {
+border: 10px solid $color_darker;
+background: $color_main;
+width: $size;
+height: $size;
+}
+
+.wrapper__item--circle {
+    border-radius: 50%;
+}
